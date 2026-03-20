@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f172a;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.app-container {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+}
+
+.header p {
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+.primary {
+    color: #38bdf8;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 440px; /* Adjust based on square size + margin */
+    gap: 4px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.square {
+    width: 18px;
+    height: 18px;
+    background: #1e293b;
+    border-radius: 4px;
+    box-shadow: 0 0 2px #000;
+    transition: 2s ease; /* Transition for fading out */
+}
+
+.square:hover {
+    transition-duration: 0s; /* Instant color on hover */
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.back-link {
+    color: #475569;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #38bdf8;
+}

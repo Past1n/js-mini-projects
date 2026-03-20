@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Mini Projects</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+        body {
+            background-color: #0f172a;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container { text-align: center; max-width: 600px; }
+        h1 { font-size: 3rem; margin-bottom: 40px; }
+        .project-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            gap: 20px;
+        }
+        .project-card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.1);
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+            background: #242f42;
+        }
+        .project-card h2 { margin: 0; color: #38bdf8; font-size: 1.5rem; }
+        .project-card p { margin: 10px 0 0; color: #94a3b8; font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Projects</h1>
+        
+        <div class="project-list">
+            <a href="projects/aim-trainer/index.html" class="project-card">
+                <h2>🎯 Aim Trainer</h2>
+                <p>Reaction-based target hitting game.</p>
+            </a>
+            <a href="projects/interactive-board/index.html" class="project-card">
+                <h2>✨ Interactive Board</h2>
+                <p>Dynamic hover-responsive grid system.</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
